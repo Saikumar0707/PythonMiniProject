@@ -76,7 +76,7 @@ if(Username in Accountholders):
                             #below condition is for statement
                             Usersdata[accountnumber]["Metadata"]["Stmt"].update({"Debit":debitamount})
                             Usersdata = Usersdata
-                            print(debitamount)
+                            #print(debitamount)
                             print("Amount debited "+str(debitamount)+" Your New Bank Balance is "+ str(Usersdata[accountnumber]["Metadata"]["BankBal"]))
                             #print(Usersdata)
                     
